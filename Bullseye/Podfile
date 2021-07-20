@@ -1,0 +1,11 @@
+platform :ios, '14.5'
+
+target 'Bullseye' do
+  use_frameworks!
+
+  target 'BullseyeUITests' do
+      use_frameworks!
+      pod 'iOSSnapshotTestCase', '6.1.0'
+  end
+
+end
