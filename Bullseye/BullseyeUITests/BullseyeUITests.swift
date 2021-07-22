@@ -45,10 +45,6 @@ class BullseyeUITests: FBSnapshotTestCase {
         ]
         
     }
-
-    override func tearDown() {
-        super.tearDown()
-    }
     
     func testCheckLeaderBoardScreen() {
         app.buttons["LeaderboardButton"].waitForExistence(timeout: 5)

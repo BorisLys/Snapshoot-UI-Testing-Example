@@ -20,9 +20,12 @@ extension UIImage {
         case "Simulator iPhone 11 Pro",
              "Simulator iPhone XS Max",
              "Simulator iPhone X",
+             "Simulator iPhone 12 Pro",
+             "Simulator iPhone 12 Pro Max",
              "Simulator iPhone XS":
             yOffset = 132
         case "Simulator iPhone XR",
+             "Simulator iPhone 12",
              "Simulator iPhone 11":
             yOffset = 88
         case "Simulator iPhone 6 Plus",
